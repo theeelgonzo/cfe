@@ -1,19 +1,34 @@
 /*General class selectors*/
+body {
+    background-color: rgb(235, 231, 203);
+}
 
 .box {
-    background-color: rgb(240, 232, 164);
+    background-color: rgb(235, 230, 185);
     padding: 2.5em;
     min-width: fit-content;
-    max-width: 50%;
+    max-width: 40%;
     margin: 1em 0 1em 0;
     border-radius: 5px;
+    background-image: url(../images/flowerbg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .textBox {
-    background-color: rgba(211, 211, 211, 0.3);
+    background-color: rgba(211, 211, 211, 0.7);
     text-align: center;
-    padding: 5em;
+    padding: 4em;
     border-bottom: 1px solid black;
+}
+.textBlurb {
+    max-width: 75%;
+    text-align: left;
+    margin: auto;
+}
+
+.textBox button {
+    margin-top: 1em;
 }
 .textBox h2 {
     text-align: left;
