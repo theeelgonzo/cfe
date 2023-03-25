@@ -13,13 +13,18 @@ body {
     background-image: url(../images/flowerbg.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    box-shadow: inset 0px 0px 10px 10px rgba(0, 0, 0, 0.3),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.4);
 }
 
 .textBox {
     background-color: rgba(211, 211, 211, 0.7);
     text-align: center;
     padding: 4em;
-    border-bottom: 1px solid black;
+    /*border-bottom: 1px solid black;*/
+    margin-bottom: 1em;
+    box-shadow: inset 0px 0px 10px 5px #dba500,
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 .textBlurb {
     max-width: 75%;
@@ -33,4 +38,9 @@ body {
 .textBox h2 {
     text-align: left;
     padding-bottom: 0.5em;
+}
+
+footer {
+    margin: auto;
+    text-align: center;
 }
