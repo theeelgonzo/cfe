@@ -48,6 +48,11 @@ body {
     font-size: 2em;
 }
 
+.carousel-item{
+    margin-left: 25%;
+    max-height: 350px;
+}
+
 footer {
     margin: auto;
     text-align: center;
