@@ -32,6 +32,15 @@ body {
     box-shadow: inset 0px 0px 10px 5px #dba500,
         0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
+.textBox1 {
+    background-color: rgba(211, 211, 211, 0.7);
+    text-align: center;
+    padding: 4em;
+    /*border-bottom: 1px solid black;*/
+    margin-bottom: 1em;
+    box-shadow: inset 0px 0px 5px #999, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
 .textBlurb {
     max-width: 75%;
     text-align: left;
@@ -49,10 +58,10 @@ body {
 }
 
 .carousel-item {
-    width: 50%;
-    height: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 40%;
+    height: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 footer {
